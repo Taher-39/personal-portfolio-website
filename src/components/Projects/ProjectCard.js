@@ -18,8 +18,8 @@ const ProjectCard = ({project}) => {
                         </div>
                         <hr/>
                         <div className="footer">
-                            <a target="_blank" href={project.gitLink}><span className='btn btn-success' style={{marginRight: '10px'}}>GitHub</span></a>
-                            <a target="_blank" href={project.liveSite}><span className='btn btn-danger'>LiveSite</span></a>
+                            <a target="_blank" rel="noopener noreferrer" href={project.gitLink}><span className='btn btn-success' style={{marginRight: '10px'}}>GitHub</span></a>
+                            <a target="_blank" rel="noopener noreferrer" href={project.liveSite}><span className='btn btn-danger'>LiveSite</span></a>
                         </div>
                     </div>
             </div> 

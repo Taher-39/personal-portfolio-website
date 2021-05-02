@@ -10,7 +10,7 @@ const BlogsCard = ({blog}) => {
                     <p className="card-text">{blog.description}</p>
                     <hr />
                     <div className="footer">
-                        <a target="_blank" href={blog.link}><span className='btn btn-danger'>Explore</span></a>
+                        <a target="_blank" href={blog.link} rel="noopener noreferrer" ><span className='btn btn-danger'>Explore</span></a>
                     </div>
                 </div>
             </div>
