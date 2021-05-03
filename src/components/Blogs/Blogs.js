@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import blogsData from './BlogData'
-import BlogsCard from './BlogsCard';
+import BlogsCard from './BlogsCard'
 const Blogs = () => {
     return (
         <div className='backgroundColor'>
