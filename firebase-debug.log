@@ -1,0 +1,59 @@
+[debug] [2021-08-06T15:40:21.124Z] ----------------------------------------------------------------------
+[debug] [2021-08-06T15:40:21.145Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-06T15:40:21.146Z] CLI Version:   9.16.0
+[debug] [2021-08-06T15:40:21.146Z] Platform:      win32
+[debug] [2021-08-06T15:40:21.147Z] Node Version:  v14.17.3
+[debug] [2021-08-06T15:40:21.463Z] Time:          Fri Aug 06 2021 21:40:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-08-06T15:40:21.464Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-06T15:40:21.517Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-08-06T15:40:21.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-06T15:40:21.886Z] > authorizing via signed-in user (taherpust@gmail.com)
+[debug] [2021-08-06T15:40:21.886Z] [iam] checking project taher-personal-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-06T15:40:21.890Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-06T15:40:21.890Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-06T15:40:33.085Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-08-06T15:40:33.101Z] > refreshing access token with scopes: []
+[debug] [2021-08-06T15:40:33.101Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-06T15:41:08.301Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 06 Aug 2021 15:40:58 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-06T15:41:08.453Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taher-personal-website [none]
+[debug] [2021-08-06T15:41:38.462Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/taher-personal-website
+[debug] [2021-08-06T15:41:49.632Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/taher-personal-website
+    at Client.doRequest (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:209:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:65:9)
+    at async C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project taher-personal-website. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-08-07T03:10:54.740Z] ----------------------------------------------------------------------
+[debug] [2021-08-07T03:10:54.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PUSTA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-07T03:10:54.759Z] CLI Version:   9.16.0
+[debug] [2021-08-07T03:10:54.759Z] Platform:      win32
+[debug] [2021-08-07T03:10:54.759Z] Node Version:  v14.17.3
+[debug] [2021-08-07T03:10:55.008Z] Time:          Sat Aug 07 2021 09:10:54 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-08-07T03:10:55.009Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-07T03:10:55.047Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-08-07T03:10:55.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-07T03:10:55.454Z] > authorizing via signed-in user (taherpust@gmail.com)
+[debug] [2021-08-07T03:10:55.454Z] [iam] checking project taher-personal-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-07T03:10:55.456Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-07T03:10:55.456Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-07T03:11:16.744Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-08-07T03:11:16.774Z] > refreshing access token with scopes: []
+[debug] [2021-08-07T03:11:16.775Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-07T03:11:37.820Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci

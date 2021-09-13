@@ -23,7 +23,6 @@ const About = () => {
                         <span className='btn btn-secondary text-light m-1'>Node.js</span>
                         <span className='btn btn-secondary text-light m-1'>Express.js</span>
                         <span className='btn btn-secondary text-light m-1'>C</span>
-                        <span className='btn btn-secondary text-light m-1'>C++</span>
                         <span className='btn btn-secondary text-light m-1'>React.js</span>
                     </div>
                     <div>
@@ -31,15 +30,13 @@ const About = () => {
                         <span className='btn btn-secondary text-light m-1'>CSS</span>
                         <span className='btn btn-secondary text-light m-1'>Bootstrap</span>
                         <span className='btn btn-secondary text-light m-1'>MongoDB</span>
-                        <span className='btn btn-secondary text-light m-1'>Redux.js</span>
                         <span className='btn btn-secondary text-light m-1'>NPM</span>
                     </div>
                     <div>
                         <span className='btn btn-secondary text-light m-1'>REST API</span>
                         <span className='btn btn-secondary text-light m-1'>Firebase</span>
-                        <span className='btn btn-secondary text-light m-1'>TypeScript</span>
                         <span className='btn btn-secondary text-light m-1'>SCSS</span>
-                        <span className='btn btn-secondary text-light m-1'>MySQL</span>
+                        <span className='btn btn-secondary text-light m-1'>Tailwind CSS</span>
                     </div>
                     <div className="first">
                         <h2 className='text-light'>I want to work with</h2>
@@ -48,14 +45,6 @@ const About = () => {
                         <span className='btn btn-secondary text-light m-1'>REST API</span>
                         <span className='btn btn-secondary text-light m-1'>Node.js</span>
                         <span className='btn btn-secondary text-light m-1'>MongoDB</span>
-                    </div>
-                    <div className="first">
-                        <h2 className='text-light'>I prefer not to work with</h2>
-                        <span className='btn btn-secondary text-light m-1'>Python</span>
-                        <span className='btn btn-secondary text-light m-1'>Wordpress</span>
-                        <span className='btn btn-secondary text-light m-1'>PHP</span>
-                        <span className='btn btn-secondary text-light m-1'>Django</span>
-                        <span className='btn btn-secondary text-light m-1'>Laravel</span>
                     </div>
                 </div>
             </div>
