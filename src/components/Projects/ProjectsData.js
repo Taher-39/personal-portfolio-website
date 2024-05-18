@@ -2,9 +2,18 @@ import videoEdit from '../../imgs/VideoFormation.png'
 import hatBazar from '../../imgs/hatBazar.png'
 import needRiders from '../../imgs/NeedRiders.png'
 import oralSolution from '../../imgs/dental-solution.png'
-import cookingMaster from '../../imgs/Cooking Master.png'
+import CreativeAgency from '../../imgs/creative-agency.png'
 import englishPremier from '../../imgs/English Premier .png'
 const projectsData = [
+    {
+        id: 0,
+        name: 'Creative-Agency Online service-based web application (Full-Stack)',
+        img: CreativeAgency,
+        description: 'Conditional dashboard for Admin and User, reviews & ratings. Admin Manage Services, Send email verification, Payment Using ssl-commarz',
+        tool: ['MERN stack', "React", "Mongoose", "React Select", "Bootstrap", "CSS"],
+        gitLink: 'https://github.com/Taher-39/agency-client.',
+        liveSite: 'https://creative-agency-git-main-taher-39.vercel.app/'
+    },
     {
         id: 1,
         name: 'Video Editing, Full Stack Site',
@@ -23,7 +32,7 @@ const projectsData = [
         gitLink: 'https://github.com/Taher-39/dental-portal',
         liveSite: 'https://oral-solution.web.app/'
     },
-    
+
     {
         id: 3,
         name: 'Hat-Bazar,E-Commerce Site',
@@ -51,15 +60,7 @@ const projectsData = [
         gitLink: 'https://github.com/Taher-39/english-premier-league',
         liveSite: 'https://sad-perlman-41697a.netlify.app/'
     },
-    {
-        id: 6,
-        name: 'Cooking Master Meal searching  & details website',
-        img: cookingMaster,
-        description: 'Cooking Master is api based web application, when a user input any latter then related meal are coming.',
-        tool: ['HTML', "CSS", 'Bootstrap', "Javascript", 'Api'],
-        gitLink: 'https://github.com/Taher-39/cooking-master',
-        liveSite: 'https://taher-39.github.io/cooking-master/'
-    }
+
 
 ]
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import me from '../../imgs/at1.png';
+// import me from '../../imgs/at1.png';
+import me from '../../imgs/ME_WITH_PANJABI.jpg';
 import './Header.css'
 
 const Header = () => {
@@ -20,7 +21,7 @@ const Header = () => {
                         skills and ability writing clean and efficient code.
                     </p>
                     <a className='mr-2' href="/contact"><span className='btn btn-success'>Get Touch</span></a>
-                <a target="_blank" href="https://drive.google.com/file/d/1ELbABuG2B0O598yLndH8_rUXhohxuGFQ/view?usp=sharing"><span className='btn btn-danger' style={{ marginLeft: "20px" }}>Get Resume</span></a>
+                <a target="_blank" href="https://drive.google.com/file/d/1RmHye6ys8thVqB-d77-p3yQ7OhomyovV/view?usp=sharing"><span className='btn btn-danger' style={{ marginLeft: "20px" }}>Get Resume</span></a>
                 </div>
                 <div class="col-md-6 col-sm-12">
                 <img src={me} className='img-fluid headerImg' style={{ width: '300px' }} alt="" />
